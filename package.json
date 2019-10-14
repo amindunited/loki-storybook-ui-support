@@ -1,0 +1,39 @@
+{
+  "name": "@amindunited/loki-storybook-ui-support",
+  "version": "0.0.1",
+  "description": "Additional files to support alternative UIs in storybook (HMTL, Svelte, Ember)",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier '{,src/**/,examples/**/,website/**/,docs/**/}*.{md,js,json}' --write",
+    "lint": "eslint *.js src",
+    "test": "jest --coverage"
+  },
+  "author": {
+    "name": "Robin Buckley",
+    "email": "buckley.robin@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/html": "^5.2.3",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "eslint": "6.1.0",
+    "eslint-config-airbnb": "17.1.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.14.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "jest": "^24.9.0",
+    "loki": "0.18.0",
+    "prettier": "^1.18.2"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/examples/"
+    ]
+  }
+}
